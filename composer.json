@@ -22,7 +22,9 @@
       "email": "madakaheri@gmail.com"
     }
   ],
-  "require": {},
+  "require": {
+    "aws/aws-sdk-php": "^3.172"
+  },
   "extra": {
     "laravel": {
       "providers": [
