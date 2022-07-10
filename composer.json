@@ -3,7 +3,7 @@
   "license": "MIT",
   "type": "project",
   "description": "AWS SDK Helpers",
-  "homepage": "https://example.com",
+  "homepage": "https://github.com/laravel-expansions/aws-helpers",
   "keywords": [
     "serverless",
     "laravel",
