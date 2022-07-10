@@ -1,5 +1,5 @@
-# aws-helpers
-The Simple AWS SDK Helpers
+# AWS Helpers
+Simple AWS SDK Helpers
 
 ## Install
 
