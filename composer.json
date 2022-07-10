@@ -1,0 +1,33 @@
+{
+  "name": "laravel-expansions/aws-helpers",
+  "license": "MIT",
+  "type": "project",
+  "description": "AWS SDK Helpers",
+  "homepage": "https://example.com",
+  "keywords": [
+    "serverless",
+    "laravel",
+    "aws",
+    "lambda",
+    "kinesis"
+  ],
+  "autoload": {
+    "psr-4": {
+      "LaravelExpansions\\AwsHelpers\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Madaka Heri",
+      "email": "madakaheri@gmail.com"
+    }
+  ],
+  "require": {},
+  "extra": {
+    "laravel": {
+      "providers": [
+        "LaravelExpansions\\AwsHelpers\\ExpansionServiceProvider"
+      ]
+    }
+  }
+}
