@@ -1,6 +1,15 @@
 # aws-helpers
 The Simple AWS SDK Helpers
 
+## Install
+
+Please install in an existing Laravel project.
+```
+composer require laravel-expansions/aws-helpers
+```
+
+## Helpers
+
 ### lambda()
 
 Returns my custom lambda instance for simple operations.
