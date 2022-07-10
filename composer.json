@@ -2,11 +2,11 @@
   "name": "laravel-expansions/aws-helpers",
   "license": "MIT",
   "type": "project",
-  "description": "AWS SDK Helpers",
+  "description": "Simple AWS SDK Helpers",
   "homepage": "https://github.com/laravel-expansions/aws-helpers",
   "keywords": [
-    "serverless",
     "laravel",
+    "helper",
     "aws",
     "lambda",
     "kinesis"
