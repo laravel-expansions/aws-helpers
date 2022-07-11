@@ -17,7 +17,7 @@ class Kinesis
     public function __construct()
     {
         $this->kinesisClient = new KinesisClient([
-            'profile' => 'default',
+            //'profile' => 'default',
             'region' => env('AWS_DEFAULT_REGION'),
             'version' => '2013-12-02',
         ]);
