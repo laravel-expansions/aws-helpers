@@ -21,7 +21,7 @@ class Lambda
     {
         $this->functionName = $functionName;
         $this->lambdaClient = LambdaClient::factory(array(
-            'profile' => 'default',
+            //'profile' => 'default',
             'region' => env('AWS_DEFAULT_REGION'),
             'version' => '2015-03-31'
         ));
