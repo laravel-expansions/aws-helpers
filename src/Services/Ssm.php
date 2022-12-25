@@ -33,7 +33,7 @@ class Ssm
     public function get()
     {
         try {
-            $result = $client->getParameters([
+            $result = $this->client->getParameters([
                 'Names' => collect($this->secretNames)->toArray(),
                 'WithDecryption' => $this->$withDecryption,
             ]);
